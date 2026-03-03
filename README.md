@@ -162,5 +162,4 @@ Once your dataset is cleaned and your baseline model is fine-tuned and saved, yo
 # Point MODEL_Path to your saved fine-tuned model path
 MODEL_PATH="path/to/your/saved_finetuned_model" \
 DATA_CSV="tamil_train_cleaned.csv" \
-LANGUAGE="tamil" \
 python flip.py
