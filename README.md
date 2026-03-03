@@ -28,7 +28,7 @@ FLAICOL introduces a flip-point-based augmentation framework that:
 
 ## 2. Method Summary
 
-FLAICOL adapts the flip-point and homotopy framework introduced in [Deep Learning Interpretation: Flip Points and Homotopy Methods (Yousefzadeh & O’Leary, 2020)](https://proceedings.mlr.press/v107/yousefzadeh20a.html) to pretrained Transformer classifiers.
+FLAICOL adapts the flip-point and homotopy framework introduced by [Yousefzadeh & O’Leary](https://proceedings.mlr.press/v107/yousefzadeh20a.html) to pretrained Transformer classifiers.
 
 For an input predicted as class *i*:
 
