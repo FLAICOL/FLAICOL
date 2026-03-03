@@ -701,7 +701,7 @@ def main():
             pd.DataFrame(results).to_csv(os.path.join(OUTPUT_DIR, "results_partial.csv"), index=False)
 
     out_df = pd.DataFrame(results)
-    out_fp = os.path.join(OUTPUT_DIR, "results_noargparse.csv")
+    out_fp = os.path.join(OUTPUT_DIR, "results.csv")
     out_df.to_csv(out_fp, index=False)
     logger.info("Saved results to %s", out_fp)
 
