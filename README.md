@@ -28,7 +28,7 @@ FLAICOL introduces a flip-point-based augmentation framework that:
 
 ## 2. Method Summary
 
-FLAICOL adapts the flip-point and homotopy framework of Yousefzadeh & O’Leary (2020) to pretrained Transformer classifiers.
+FLAICOL adapts the flip-point and homotopy framework introduced in [Deep Learning Interpretation: Flip Points and Homotopy Methods (Yousefzadeh & O’Leary, 2020)](https://proceedings.mlr.press/v107/yousefzadeh20a.html) to pretrained Transformer classifiers.
 
 For an input predicted as class *i*:
 
@@ -78,7 +78,7 @@ Severe imbalance (especially Malayalam) motivates targeted augmentation.
 The DravidianCodeMix dataset is publicly available from:
 
 * Website: https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset.git
-* Dataset paper: DravidianCodeMix: sentiment analysis and offensive language identification dataset for Dravidian languages in code-mixed text
+* Dataset paper: [DravidianCodeMix: sentiment analysis and offensive language identification dataset for Dravidian languages in code-mixed text (Chakravarthi et al., 2022)](https://doi.org/10.1007/s10579-022-09583-7)
 
 Please download the dataset from the official source and place the CSV files locally before running experiments.
 
